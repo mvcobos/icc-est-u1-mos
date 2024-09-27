@@ -3,9 +3,7 @@ public class App {
         System.out.println("Metodo de ordenamiento Seleccion");
         MetodosOrdenamiento mO = new MetodosOrdenamiento();
         int[] arreglo = {10, 5, 8, 6, 95, 243};
-        int[] arregloOrdenado = mO.sortBySeleccion(arreglo, false);
-        mO.printArreglo(arregloOrdenado);
-        
-        
+        int[] arregloOrdenado = mO.sortBySeleccion(arreglo, true);
+        mO.printArreglo(arregloOrdenado);  
     }
 }
